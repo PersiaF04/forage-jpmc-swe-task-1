@@ -28,6 +28,7 @@ class ClientTest(unittest.TestCase):
     result = getRatio(0, 5)
     self.assertEqual(result, 0)
 
+
   def test_getRatio_priceBisZero(self):
      #test for when price B is zero
      result = getRatio(5, 0)
